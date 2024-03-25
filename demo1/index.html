@@ -5,8 +5,8 @@
     <title>demo1</title>
     <style>
       #container {
-        min-height: 30rem;
-        display: flex;
+        /*min-height: 30rem;*/
+        /*display: flex;*/
       }
       body {
         margin: 0;
@@ -15,14 +15,17 @@
       .direct-editor {
         flex: 1;
       }
+      .active {
+        background: #999999;
+      }
     </style>
 </head>
 <body>
-<button id="bold-btn">加粗</button>
-<div id="container">
-    <p class="line"><span>111</span><span>aaa</span></p>
-    <p class="line"><span>222</span><span>bbb</span></p>
-</div>
+<button id="btn1">加粗</button>
+<button id="btn2">倾斜</button>
+<button id="btn3">下滑线</button>
+<button id="btn4">删除线</button>
+<div id="container"></div>
 </body>
 <script src="dist/bundle.js"></script>
 </html>
