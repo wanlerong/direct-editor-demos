@@ -16,13 +16,13 @@ btn1.addEventListener('click', (event) => {
   e.toolbar.bold(!btn1.classList.contains("active"))
 })
 btn2.addEventListener('click', (event) => {
-  e.toolbar.italic(!btn1.classList.contains("active"))
+  e.toolbar.italic(!btn2.classList.contains("active"))
 })
 
 btn3.addEventListener('click', (event) => {
-  e.toolbar.underline(!btn1.classList.contains("active"))
+  e.toolbar.underline(!btn3.classList.contains("active"))
 })
 
 btn4.addEventListener('click', (event) => {
-  e.toolbar.strikethrough(!btn1.classList.contains("active"))
+  e.toolbar.strikethrough(!btn4.classList.contains("active"))
 })
